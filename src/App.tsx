@@ -74,6 +74,22 @@ function App() {
             Made with love ♥
           </p>
         </footer>
+
+        {/* Copyright / credit bar */}
+        <div className="copyright-bar">
+          <p className="copyright-text">
+            © 2026{' '}
+            <a
+              href="https://www.instagram.com/leoswebsolutions/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="copyright-link"
+            >
+              Leos Web Solutions
+            </a>
+            {' '}| All Rights Reserved
+          </p>
+        </div>
       </div>
     </>
   );
