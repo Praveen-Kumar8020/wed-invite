@@ -52,19 +52,31 @@ export default function FinalInvitation() {
             Kaushika Bharathi
           </p>
 
-          {/* Date / Time / Venue */}
-          <div data-reveal="fade" style={{ ['--d' as string]: 760, marginBottom: 'clamp(24px, 4vw, 40px)', display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {/* Wedding */}
+          <div data-reveal="fade" style={{ ['--d' as string]: 720, marginBottom: 'clamp(10px, 2vw, 18px)', display: 'flex', flexDirection: 'column', gap: 4 }}>
+            <p className="final-label">WEDDING</p>
             <p className="final-date">06 DECEMBER 2026</p>
             <p className="final-time">10:30 AM – 12:00 NOON</p>
             <p className="final-place">R.C. Mahal, Madurai</p>
           </div>
 
+          {/* Slim gold rule between events */}
+          <span data-reveal="fade" style={{ ['--d' as string]: 780, display: 'block', width: 48, height: 1, background: 'linear-gradient(90deg, transparent, rgba(196,154,69,0.6), transparent)', margin: 'clamp(10px, 2vw, 16px) auto' }} aria-hidden="true" />
+
+          {/* Reception */}
+          <div data-reveal="fade" style={{ ['--d' as string]: 820, marginBottom: 'clamp(24px, 4vw, 40px)', display: 'flex', flexDirection: 'column', gap: 4 }}>
+            <p className="final-label">RECEPTION</p>
+            <p className="final-date">05 DECEMBER 2026</p>
+            <p className="final-time">6:00 PM – 8:30 PM</p>
+            <p className="final-place">R.C. Mahal, Madurai</p>
+          </div>
+
           {/* Invitation message */}
-          <p className="final-msg" data-reveal="fade" style={{ ['--d' as string]: 880, marginBottom: 'clamp(28px, 4vw, 44px)' }}>
+          <p className="final-msg" data-reveal="fade" style={{ ['--d' as string]: 920, marginBottom: 'clamp(28px, 4vw, 44px)' }}>
             We would be delighted to have your presence and blessings on our special day.
           </p>
 
-          <div data-reveal="fade" style={{ ['--d' as string]: 1000, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
+          <div data-reveal="fade" style={{ ['--d' as string]: 1040, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
             <span style={{ width: 60, height: 1, background: 'linear-gradient(90deg, transparent, #C49A45, transparent)' }} aria-hidden="true" />
             <p className="final-love">With Love</p>
             <p className="final-sign">Karthikeyan & Kaushika Bharathi</p>

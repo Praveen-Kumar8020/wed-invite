@@ -9,8 +9,8 @@ function getTimeLeft(): TimeLeft {
   const wedding = new Date('2026-12-06T10:30:00+05:30').getTime();
   const diff = Math.max(0, wedding - Date.now());
   return {
-    days:    Math.floor(diff / 86400000),
-    hours:   Math.floor((diff / 3600000) % 24),
+    days: Math.floor(diff / 86400000),
+    hours: Math.floor((diff / 3600000) % 24),
     minutes: Math.floor((diff / 60000) % 60),
     seconds: Math.floor((diff / 1000) % 60),
   };
@@ -63,7 +63,7 @@ export default function Countdown() {
         <div data-reveal="fade" style={{ ['--d' as string]: 400, marginTop: 'clamp(44px, 6vw, 64px)', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <LotusDivider width={170} tone="light" />
           <p className="count-foot-1" style={{ marginTop: 18 }}>06 December 2026 · Sunday</p>
-          <p className="count-foot-2">10:30 AM IST · R.C. Mahal, Madurai</p>
+          <p className="count-foot-2">R.C. Mahal, Madurai</p>
         </div>
       </div>
 

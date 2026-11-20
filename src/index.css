@@ -554,6 +554,7 @@ main { display: block; width: 100%; }
 .final-time { font-family: var(--f-sans); color: rgba(232,213,163,0.8); font-size: 12px; letter-spacing: 0.3em; }
 .final-place { font-family: var(--f-serif); color: rgba(232,213,163,0.8); font-size: 18px; }
 .final-msg { font-family: var(--f-serif); font-style: italic; color: rgba(232,213,163,0.92); font-size: clamp(20px, 2.4vw, 24px); line-height: 1.6; max-width: 32ch; text-wrap: balance; }
+.final-label { font-family: var(--f-caps); font-weight: 600; color: rgba(196,154,69,0.75); font-size: 11px; letter-spacing: 0.38em; padding-left: 0.38em; }
 .final-love { font-family: var(--f-serif); font-style: italic; color: var(--gold); font-size: 21px; }
 .final-sign { font-family: var(--f-serif); color: var(--champagne); font-size: clamp(19px, 2.2vw, 22px); }
 .final-strings { position: absolute; top: 40px; z-index: 1; display: flex; gap: 6px; pointer-events: none; }
@@ -613,6 +614,11 @@ main { display: block; width: 100%; }
   .count-foot-2 { letter-spacing: 0.14em; }
   .hero-std { letter-spacing: 0.5em; padding-left: 0.5em; }
 }
+
+/* =====================================================================
+   NETLIFY BADGE — hide the injected "Powered by Netlify" button
+   ===================================================================== */
+#nl-badge { display: none !important; }
 
 /* =====================================================================
    COPYRIGHT BAR — below the footer

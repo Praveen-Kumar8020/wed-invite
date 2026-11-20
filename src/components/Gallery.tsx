@@ -4,13 +4,13 @@ import SmartImage from './SmartImage';
 import SectionHeading from './SectionHeading';
 
 const images = [
-  { src: '/images/1.jpeg',         alt: 'Together at carved door' },
-  { src: '/images/2.jpeg',         alt: 'Purple traditional attire' },
-  { src: '/images/4.jpeg',         alt: 'Intimate couple portrait' },
-  { src: '/images/3.jpeg',         alt: 'Couple dancing' },
-  { src: '/images/animate.jpeg',   alt: 'Artistic illustration' },
-  { src: '/images/groom.jpeg',     alt: 'Karthikeyan portrait' },
-  { src: '/images/bride.png.jpeg', alt: 'Kaushika Bharathi portrait' },
+  { src: '/images/1.jpeg', alt: 'Together at carved door' },
+  { src: '/images/2.jpeg', alt: 'Purple traditional attire' },
+  { src: '/images/4.jpeg', alt: 'Intimate couple portrait' },
+  { src: '/images/3.jpeg', alt: 'Couple dancing' },
+  { src: '/images/animate.jpeg', alt: 'Artistic illustration' },
+  { src: '/images/candid.jpeg', alt: 'Karthikeyan portrait' },
+  { src: '/images/couplepic.jpeg', alt: 'Kaushika Bharathi portrait' },
 ];
 
 export default function Gallery() {
